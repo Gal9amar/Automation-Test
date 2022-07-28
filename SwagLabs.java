@@ -1,3 +1,5 @@
+package homeWork2;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -99,6 +101,9 @@ public class SwagLabs {
 			if (url.equals("https://www.saucedemo.com/checkout-complete.html")) {
 				System.out.println("Current URL: " + url);
 				System.out.println(expected + " Program Ended have a nice score !!!");
+				System.out.println("--------------------");
+				System.out.println("Test Case 01  - PASS");
+				System.out.println("--------------------");
 			} else {
 				System.err.println("ERROR - url does not match");
 			}
